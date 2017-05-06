@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @resume.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @resume.email %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @resume.dob %>
+</p>
+
+<p>
+  <strong>Phonenumber:</strong>
+  <%= @resume.phonenumber %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @resume.address %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @resume.gender %>
+</p>
+
+<p>
+  <strong>Qualification:</strong>
+  <%= @resume.qualification %>
+</p>
+
+<p>
+  <strong>Projects:</strong>
+  <%= @resume.projects %>
+</p>
+
+<p>
+  <strong>Experience:</strong>
+  <%= @resume.experience %>
+</p>
+
+<p>
+  <strong>Hobbies:</strong>
+  <%= @resume.hobbies %>
+</p>
+
+<p>
+  <strong>Knownproglangs:</strong>
+  <%= @resume.knownproglangs %>
+</p>
+
+<%= link_to 'Edit', edit_resume_path(@resume) %> |
+<%= link_to 'Back', resumes_path %>
